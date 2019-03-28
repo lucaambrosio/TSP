@@ -1,12 +1,12 @@
 public class Citta {
     private Integer id;
-    private Double coordx;
-    private Double coordy;
+    private Double x;
+    private Double y;
 
-    public Citta(Integer id, Double coordx, Double coordy) {
+    public Citta(Integer id, Double x, Double y) {
         this.id = id;
-        this.coordx = coordx;
-        this.coordy = coordy;
+        this.x = x;
+        this.y = y;
     }
 
     public Integer getId() {
@@ -17,19 +17,27 @@ public class Citta {
         this.id = id;
     }
 
-    public Double getCoordx() {
-        return coordx;
+    public Double getX() {
+        return x;
     }
 
-    public void setCoordx(Double coordx) {
-        this.coordx = coordx;
+    public void setX(Double x) {
+        this.x = x;
     }
 
-    public Double getCoordy() {
-        return coordy;
+    public Double getY() {
+        return y;
     }
 
-    public void setCoordy(Double coordy) {
-        this.coordy = coordy;
+    public void setY(Double y) {
+        this.y = y;
+    }
+
+    @Override
+    public String toString() {
+        return "Citta{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
