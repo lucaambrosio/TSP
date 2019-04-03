@@ -7,7 +7,9 @@ import javafx.stage.Stage;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -24,7 +26,7 @@ public class Main extends Application {
 
     public static void main(String[] args){
             //inizio a settare i parametri
-        Integer iterazioni =30;
+        Integer iterazioni =10;
         ArrayList<Solution> soluzioni = new ArrayList<>();
         for(int iii=0;iii<iterazioni;iii++) {
             Partenza.setStartTime();
@@ -130,9 +132,10 @@ public class Main extends Application {
 
             //array di appoggio per permettere la rappresentazione grafica del percorso trovato
             arrayPath2OP = Stream.of(migliore).collect(Collectors.toList());
+
             //System.out.println("------------------------------------Simulated Annealing------------------------------------------");
             //GetD.setCittaList(cittaList);
-
+            shuffleArray(migliore);
             AlgoritmoSA algoritmoSA = new AlgoritmoSA(migliore);
             Citta[] finale = algoritmoSA.doIt();
             distanza_finale = GetD.totalDistance(finale);
@@ -235,6 +238,20 @@ public class Main extends Application {
                     arrayPath.get(i).getX() * fattoreX,
                     arrayPath.get(i).getY() * fattoreY + traslazione);
             root.getChildren().add(l);
+        }
+    }
+
+    private static void shuffleArray(Citta[] array)
+    {
+        int index=0;
+        Citta temp;
+        Random random = Partenza.r;
+        for (int i = array.length - 1; i > 0; i--)
+        {
+            index = random.nextInt(i + 1);
+            temp = array[index];
+            array[index] = array[i];
+            array[i] = temp;
         }
     }
 

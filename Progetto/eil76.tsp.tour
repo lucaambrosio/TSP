@@ -3,8 +3,6 @@ COMMENT : 76-city problem (Christofides/Eilon)
 TYPE : TSP
 DIMENSION: 76
 TOUR_SECTION
-74
-2
 68
 6
 51
@@ -25,8 +23,8 @@ TOUR_SECTION
 34
 46
 8
-35
 7
+35
 53
 11
 38
@@ -75,9 +73,11 @@ TOUR_SECTION
 16
 63
 33
-73
 1
+73
 62
 28
+74
+2
 -1
 EOF

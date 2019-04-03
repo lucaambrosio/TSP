@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b59686ac-9b73-414d-ad48-6714c73f29dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlgoritmoSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GetD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Partenza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Documentazione/excel/calcolo_perc.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentazione/excel/calcolo_perc.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Progetto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algoritmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algoritmo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Citta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Citta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eil76.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/eil76.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rat783.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/rat783.tsp.tour" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TwoOpt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwoOpt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lin318.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lin318.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Algoritmo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Algoritmo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Citta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Citta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Partenza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Partenza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwoOpt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoOpt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lin318.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lin318.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AlgoritmoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AlgoritmoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,13 +17,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3221">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="137" column="35" lean-forward="true" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +46,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,6 +142,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -156,14 +165,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/d198.tsp" />
         <option value="$PROJECT_DIR$/src/main/resources/rat783.tsp" />
         <option value="$PROJECT_DIR$/src/main/java/Citta.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Algoritmo.java" />
         <option value="$PROJECT_DIR$/src/main/java/GetD.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwoOpt.java" />
         <option value="$PROJECT_DIR$/src/main/resources/lin318.tsp" />
         <option value="$PROJECT_DIR$/src/main/java/AlgoritmoSA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Partenza.java" />
         <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algoritmo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Partenza.java" />
       </list>
     </option>
   </component>
@@ -186,17 +195,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -234,6 +242,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,12 +251,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553702550908" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553867846442" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Applicazioniweb2/Progetto/ambrosio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -289,7 +298,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Progetto" />
-      <option name="PROGRAM_PARAMETERS" value="rat783.tsp" />
+      <option name="PROGRAM_PARAMETERS" value="u1060.tsp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -365,7 +374,12 @@
       <workItem from="1553705293155" duration="5204000" />
       <workItem from="1553758206193" duration="1574000" />
       <workItem from="1553789447897" duration="2548000" />
-      <workItem from="1553813021473" duration="1244000" />
+      <workItem from="1553813021473" duration="2461000" />
+      <workItem from="1553845469853" duration="294000" />
+      <workItem from="1553852698959" duration="5140000" />
+      <workItem from="1554118609606" duration="3364000" />
+      <workItem from="1554195160673" duration="2792000" />
+      <workItem from="1554274330949" duration="116000" />
     </task>
     <servers />
   </component>
@@ -384,13 +398,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80009000" />
+    <option name="totallyTimeSpent" value="92932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21543624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -399,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46222222" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4612006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3177305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,7 +431,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.15503356" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -512,16 +526,6 @@
         <state relative-caret-position="-17583" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TwoOpt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -542,20 +546,30 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/ch130.tsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3221">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="442">
+          <caret line="137" column="35" lean-forward="true" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
