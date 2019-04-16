@@ -230,24 +230,5 @@ public class Main extends Application {
             root.getChildren().add(l);
         }
     }
-
-    private static void shuffleArray(Citta[] array)
-    {
-        int index=0;
-        Citta temp;
-        Random random = Partenza.r;
-        for (int i = array.length - 1; i > 0; i--)
-        {
-            index = random.nextInt(i + 1);
-            temp = array[index];
-            array[index] = array[i];
-            array[i] = temp;
-        }
-    }
-
-
-
-
-
-
+    
 }
