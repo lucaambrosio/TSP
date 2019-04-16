@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 
 import static javafx.scene.paint.Color.*;
 
-@SuppressWarnings("ALL")
+
 public class Main extends Application {
     static int distanza_finale=0;
     private int borderX = 1000;
@@ -36,7 +36,6 @@ public class Main extends Application {
             Integer dimesione = 0;
             Integer best=0;
             String nome = args[0];
-            //System.out.println("il nume del file e\' :" + nome);
             ClassLoader classLoader = new Main().getClass().getClassLoader();
             File file = new File(classLoader.getResource(nome).getFile());
             try (BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -49,9 +48,14 @@ public class Main extends Application {
                     }
                     if (i < 8) {
                         if (i == 4) {
-                            System.out.println(line);
+                            try{
+                                System.out.println(line);
+                                dimesione = Integer.parseInt(line.split(" ")[1]);
+                            }catch (NumberFormatException e){
+                                System.out.println(line);
+                                dimesione = Integer.parseInt(line.split(" ")[2]);
+                            }
 
-                            dimesione = Integer.parseInt(line.split(" ")[1]);
 
                         }
                         if (i == 6) {
@@ -93,17 +97,9 @@ public class Main extends Application {
                     distanze[i][j] = distanza(cittaList.get(i), cittaList.get(j));
                 }
             }
-            //stampo la matrice
-            //stampo la matrice delle distanze
-           /* for (int i = 0; i < distanze.length; i++) {
-                for (int j = 0; j < distanze[i].length; j++) {
-                    System.out.print(distanze[i][j] + " ");
-                }
-                System.out.println();
-            }*/
+
 
             //System.out.println("---------------------------------------NN------------------------------------------------");
-
 
             //creo algoritmo e mi ritoena il viaggio
             Algoritmo algoritmo = new Algoritmo(distanze);
@@ -118,10 +114,6 @@ public class Main extends Application {
             }
             cittaviaggio[cittaviaggio.length - 1] = cittaviaggio[0];
 
-            int distanzatotale = 0;
-
-            distanzatotale = GetD.totalDistance(cittaviaggio);
-
             //in viaggio ho il viaggio con NN
             //adesso eseguo l'algoritmo twoopt
 
@@ -135,13 +127,11 @@ public class Main extends Application {
 
             //System.out.println("------------------------------------Simulated Annealing------------------------------------------");
             //GetD.setCittaList(cittaList);
-            shuffleArray(migliore);
+
             AlgoritmoSA algoritmoSA = new AlgoritmoSA(migliore);
             Citta[] finale = algoritmoSA.doIt();
             distanza_finale = GetD.totalDistance(finale);
             System.out.println("la distanza finale e\' : " + distanza_finale);
-
-            //System.out.println("disegno i punti");
             System.out.println("il SEED utilizzato e\': " + seed);
             soluzioni.add(new Solution(distanza_finale,seed));
             //utilizzato solo per rappresentazione grafica

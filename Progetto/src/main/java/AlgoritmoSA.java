@@ -13,7 +13,6 @@ public class AlgoritmoSA {
         Citta[] current = arrayPath;
         Citta[] best = current;
         while ((System.currentTimeMillis() - Partenza.startTime) < 140000 || GetD.totalDistance(best)<Partenza.opt) {
-            //while (temperature > 0.00000000000000001) {
             if(GetD.totalDistance(best)<Partenza.opt){
                 System.err.println("ho trovato il viaggio ottimale");
             }
@@ -32,9 +31,6 @@ public class AlgoritmoSA {
             }
             temperature *= coolingRate;
         }
-        int s = GetD.totalDistance(best);
-        //System.out.println(s + ", Errore del            " + (((double) s - (double) AlgoritmoNN.best) / (double) AlgoritmoNN.best) * 100 + "%");
-        //System.out.println("Time " + ((((double) System.currentTimeMillis() - (double) Partenza.startTime)) * 60 / (double) 60000) + " secs");
         return best;
     }
 
@@ -42,7 +38,6 @@ public class AlgoritmoSA {
         double r = Partenza.r.nextDouble();
         double difference = -((double) next - (double) current);
         double d = Math.pow(Math.E, (difference / temp));
-        //System.out.println("difference= " + difference + " r= " + r + "d= " + d);
         return (r < d);
     }
 
