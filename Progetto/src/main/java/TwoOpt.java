@@ -5,7 +5,44 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TwoOpt {
-        public static Citta[] alternate(Citta[] citta) {
+
+    public static Citta[] alternate(Citta[] citta) {
+
+        int change, mini = 0, minj = 0, minChange;
+        int giri = 0;
+        do {
+            minChange = Integer.MAX_VALUE;
+            for (int i = 0; i < citta.length - 1; i++) {
+                for (int j = i + 1; j < citta.length - 1; j++) {
+                    //gl++;
+                    change = Main.distanza(citta[i],citta[j]) + Main.distanza(citta[i + 1],(citta[j+1]))-
+                            Main.distanza(citta[i],(citta[i + 1]) )- Main.distanza(citta[j],(citta[j+1]));
+
+                            /*matrixDistance[path[i]][path[j]]
+                            + matrixDistance[path[i + 1]][path[j + 1]]
+                            - matrixDistance[path[i]][path[i + 1]]
+                            - matrixDistance[path[j]][path[j + 1]];*/
+                    if (minChange > change) {
+                        minChange = change;
+                        mini = i;
+                        minj = j;
+                    }
+                }
+            }
+            citta = swap(citta,mini, minj);
+            giri++;
+
+        } while (minChange < 0);
+        return citta;
+    }
+
+
+
+
+
+
+
+       /* public static Citta[] alternate(Citta[] citta) {
             Citta[] nuovoviaggio;
             double migliorDist = GetD.totalDistance(citta);
             double nuovadistanza;
@@ -43,13 +80,13 @@ public class TwoOpt {
                 iterazioni++;
             }
             //stampo le statisti che dell'algoritmo
-/*           System.out.println("comparazioni effettuate: " + comparazioni);
+*//*      System.out.println("comparazioni effettuate: " + comparazioni);
             System.out.println("Miglioramenti effettuati: " + miglioramenti);
-            System.out.println("Iterazioni del algoritmo: " + iterazioni);*/
+            System.out.println("Iterazioni del algoritmo: " + iterazioni);*//*
             return citta;
         }
-
-        private static Citta[] swap(Citta[] citta, int i, int j) {
+*/
+        /*private static Citta[] swap(Citta[] citta, int i, int j) {
             //esegue un 2 opt swap invertendo l'ordine dei punti tra i e j
 
             //prendere array fino al primo punto i e aggiungere a nuovoviaggio
@@ -77,5 +114,28 @@ public class TwoOpt {
             }
 
             return nuovoviaggio;
+        }*/
+
+
+
+
+
+
+
+    private static Citta[] swap(Citta[] citta ,int i, int j) {
+        Citta[] appoggio = new Citta[citta.length];
+        for (int v = 0; v <= i; v++) {
+            appoggio[v] = citta[v];
         }
+        int conta = 0;
+        for (int v = i + 1; v <= j; v++) {
+            appoggio[v] = citta[j - conta];
+            conta++;
+        }
+        for (int v = j + 1; v < citta.length - 1; v++) {
+            appoggio[v] = citta[v];
+        }
+        appoggio[appoggio.length - 1] = appoggio[0];
+        return appoggio;
+    }
     }
