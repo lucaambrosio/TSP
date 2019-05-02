@@ -2,26 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b59686ac-9b73-414d-ad48-6714c73f29dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Documentazione/excel/calcolo_perc.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentazione/excel/calcolo_perc.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch130.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/ch130.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d198.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/d198.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eil76.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/eil76.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fl1577.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/fl1577.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lin318.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/lin318.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcb442.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/pcb442.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rat783.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/rat783.tsp.tour" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AlgoritmoSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlgoritmoSA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/d198.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/d198.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eil76.opt.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/eil76.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/eil76.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fl1577.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fl1577.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/kroA100.opt.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lin318.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lin318.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pcb442.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pcb442.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pr439.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pr439.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rat783.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rat783.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/u1060.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/u1060.tsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CandidateRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Partenza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Partenza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TwoOpt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwoOpt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlgoritmoSA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AlgoritmoSA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Progetto.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Partenza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Partenza.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TwoOpt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoOpt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eil76.opt.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kroA100.opt.tour" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ch130.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch130.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/d198.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/d198.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eil76.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eil76.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fl1577.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fl1577.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kroA100.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kroA100.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lin318.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lin318.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pcb442.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pcb442.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pr439.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pr439.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rat783.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rat783.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/u1060.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/u1060.tsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u1060.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/u1060.tsp.tour" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +60,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AlgoritmoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,9 +108,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Citta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="493">
               <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
@@ -97,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AlgoritmoSA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+            <state relative-caret-position="204">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
@@ -110,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TwoOpt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,13 +153,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Partenza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#148#149#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,9 +205,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/lin318.tsp" />
         <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algoritmo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AlgoritmoSA.java" />
         <option value="$PROJECT_DIR$/src/main/java/Partenza.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwoOpt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AlgoritmoSA.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
@@ -198,16 +231,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-90" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,11 +274,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Progetto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Progetto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +292,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555408132141" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555412407893" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -384,6 +422,20 @@
       <workItem from="1554118609606" duration="3364000" />
       <workItem from="1554195160673" duration="2792000" />
       <workItem from="1554274330949" duration="116000" />
+      <workItem from="1555412647942" duration="4598000" />
+      <workItem from="1555484326755" duration="14897000" />
+      <workItem from="1555570084743" duration="3195000" />
+      <workItem from="1555769844612" duration="6370000" />
+      <workItem from="1555783698616" duration="616000" />
+      <workItem from="1555844382529" duration="5790000" />
+      <workItem from="1556014717390" duration="3738000" />
+      <workItem from="1556026599585" duration="15308000" />
+      <workItem from="1556061559411" duration="704000" />
+      <workItem from="1556099605760" duration="3472000" />
+      <workItem from="1556197606545" duration="8010000" />
+      <workItem from="1556278563879" duration="2709000" />
+      <workItem from="1556370320619" duration="2853000" />
+      <workItem from="1556387641461" duration="2481000" />
     </task>
     <servers />
   </component>
@@ -402,13 +454,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95411000" />
+    <option name="totallyTimeSpent" value="172653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-90" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23758389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -417,7 +469,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3499268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3177305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,7 +479,7 @@
       <window_info anchor="bottom" id="Statistic" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32796487" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32777777" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -435,7 +487,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.15503356" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.087248325" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -489,16 +541,6 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1_windows-x64_bin/jdk-11.0.1/lib/src.zip!/java.base/java/io/FileInputStream.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1_windows-x64_bin/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/AlgoritmoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pcb442.tsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -534,24 +576,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/eil76.opt.tour">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/eil76.opt.tour" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/rat783.tsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Citta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -570,23 +599,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/ch130.tsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/lin318.tsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -601,10 +613,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/kroA100.opt.tour">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kroA100.opt.tour" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/d198.tsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlgoritmoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kroA100.tsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algoritmo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,43 +651,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/d198.tsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Partenza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Citta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwoOpt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/kroA100.tsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AlgoritmoSA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+        <state relative-caret-position="204">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
           <folding>
             <element signature="e#137#138#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
@@ -659,10 +676,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Partenza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TwoOpt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

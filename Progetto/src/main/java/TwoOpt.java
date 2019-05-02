@@ -26,10 +26,12 @@ public class TwoOpt {
                         minChange = change;
                         mini = i;
                         minj = j;
+                        citta = swap(citta,mini, minj);
                     }
+
                 }
             }
-            citta = swap(citta,mini, minj);
+
             giri++;
 
         } while (minChange < 0);

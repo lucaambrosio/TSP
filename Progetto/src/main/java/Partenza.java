@@ -16,8 +16,7 @@ public class Partenza {
 
 
     public static void setR(Long seed){
-        //System.out.println("SEED : " + seed);
-        r=new Random(seed);//1553723496331l
+        r=new Random(seed);
     }
     public static void setStartTime(){
         startTime=System.currentTimeMillis();
