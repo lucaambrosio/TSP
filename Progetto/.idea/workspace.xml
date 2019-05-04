@@ -3,20 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b59686ac-9b73-414d-ad48-6714c73f29dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch130.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/d198.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eil76.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl1577.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kroA100.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lin318.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcb442.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pr439.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rat783.tsp.tour" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SolverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SolverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AlgoritmoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/u1060.tsp.tour" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch130.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/ch130.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d198.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/d198.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eil76.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/eil76.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fl1577.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/fl1577.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kroA100.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/kroA100.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lin318.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/lin318.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcb442.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/pcb442.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pr439.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/pr439.tsp.tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u1060.tsp.tour" beforeDir="false" afterPath="$PROJECT_DIR$/u1060.tsp.tour" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -211,10 +206,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -280,7 +275,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556820888678" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556831547914" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -322,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolverTest.rat783">
+  <component name="RunManager" selected="JUnit.SolverTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_201" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -381,8 +376,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolverTest.rat783" />
         <item itemvalue="JUnit.SolverTest" />
+        <item itemvalue="JUnit.SolverTest.rat783" />
         <item itemvalue="JUnit.SolverTest.ch130" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AlgoritmoTest.test" />
@@ -429,14 +424,11 @@
       <workItem from="1556278563879" duration="2709000" />
       <workItem from="1556370320619" duration="2853000" />
       <workItem from="1556387641461" duration="2481000" />
-      <workItem from="1556800324960" duration="8736000" />
+      <workItem from="1556800324960" duration="9869000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolverTest_ch130 - 2019.05.02 at 14h 47m 31s.xml">
-      <configuration name="SolverTest.ch130" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolverTest_ch130 - 2019.05.02 at 14h 48m 02s.xml">
       <configuration name="SolverTest.ch130" configurationId="JUnit" />
     </history-entry>
@@ -464,9 +456,12 @@
     <history-entry file="SolverTest_rat783 - 2019.05.02 at 20h 16m 02s.xml">
       <configuration name="SolverTest.rat783" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SolverTest - 2019.05.02 at 21h 14m 15s.xml">
+      <configuration name="SolverTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181389000" />
+    <option name="totallyTimeSpent" value="182522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,7 +484,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30893117" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30893117" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3177305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
