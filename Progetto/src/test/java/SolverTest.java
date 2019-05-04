@@ -41,7 +41,7 @@ public class SolverTest {
 
     @Test(timeout = 181000)
     public void pcb442() {
-        Main.main(new String[]{"pcb442.tsp","1556227370289"});
+        Main.main(new String[]{"pcb442.tsp","1556989032827"});
         //fail("Not yet implemented");
     }
 
@@ -53,8 +53,8 @@ public class SolverTest {
 
     @Test(timeout = 181000)
     public void rat783() {
-        Main.main(new String[]{"rat783.tsp","1556388058827"});
-        //fail("Not yet implemented");
+            Main.main(new String[]{"rat783.tsp","1556985448331"});
+
     }
 
     @Test(timeout = 181000)

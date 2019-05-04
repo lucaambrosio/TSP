@@ -1,9 +1,9 @@
-import javafx.application.Application;
+/*import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
-import javafx.stage.Stage;
+import javafx.stage.Stage;*/
 
 import java.io.*;
 import java.util.ArrayList;
@@ -11,10 +11,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static javafx.scene.paint.Color.*;
+//import static javafx.scene.paint.Color.*;
 
 
-public class Main extends Application {
+public class Main /*extends Application*/ {
     static int distanza_finale = 0;
     private int borderX = 1000;
     private int borderY = 600;
@@ -30,8 +30,8 @@ public class Main extends Application {
         for(int iii=0;iii<iterazioni;iii++) {*/
         Partenza.setStartTime();
         Long seed = Long.parseLong(args[1]);
-//        System.out.println("il seed utilizzato e\' : "+seed);
         Partenza.setR(seed);
+        System.out.println("il seed urilizzato e\':"+seed);
         cittaList = new ArrayList<>();
         Integer dimesione = 0;
         Integer best = 0;
@@ -191,39 +191,39 @@ public class Main extends Application {
     }
 
 
-    @Override
-    public void start(Stage primaryStage) {
-        double maxX = Double.MIN_VALUE, maxY = Double.MIN_VALUE;
-        for (Citta city : cittaList) {
-            if (city.getX() > maxX) maxX = city.getX();
-            if (city.getY() > maxY) maxY = city.getY();
-        }
-        double factorX = borderX / maxX, factorY = borderY / maxY;
-        BorderPane root = new BorderPane();
-        int translation = 0;
-        printCityPoint((float) factorX, (float) factorY, root, translation);
-        printLine(arrayPath2OP, factorX, factorY, root, translation);
-        Scene scene = new Scene(root, borderX, borderY + translation * 2);
-        primaryStage.setTitle("Hello World!");
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }
-
-    private void printCityPoint(float fattoreX, float fattoreY, BorderPane root, int traslazione) {
-        for (Citta c : cittaList) {
-            Circle p = new Circle((float) c.getX().doubleValue() * fattoreX, (float) c.getY().doubleValue() * fattoreY + traslazione, 4, GREEN);
-            root.getChildren().add(p);
-        }
-    }
-
-    private void printLine(List<Citta> arrayPath, double fattoreX, double fattoreY, BorderPane root, int traslazione) {
-        for (int i = 1; i < arrayPath.size(); i++) {
-            Line l = new Line(arrayPath.get(i - 1).getX() * fattoreX,
-                    arrayPath.get(i - 1).getY() * fattoreY + traslazione,
-                    arrayPath.get(i).getX() * fattoreX,
-                    arrayPath.get(i).getY() * fattoreY + traslazione);
-            root.getChildren().add(l);
-        }
-    }
+    //    @Override
+    //    public void start(Stage primaryStage) {
+    //        double maxX = Double.MIN_VALUE, maxY = Double.MIN_VALUE;
+    //        for (Citta city : cittaList) {
+    //            if (city.getX() > maxX) maxX = city.getX();
+    //            if (city.getY() > maxY) maxY = city.getY();
+    //        }
+    //        double factorX = borderX / maxX, factorY = borderY / maxY;
+    //        BorderPane root = new BorderPane();
+    //        int translation = 0;
+    //        printCityPoint((float) factorX, (float) factorY, root, translation);
+    //        printLine(arrayPath2OP, factorX, factorY, root, translation);
+    //        Scene scene = new Scene(root, borderX, borderY + translation * 2);
+    //        primaryStage.setTitle("Hello World!");
+    //        primaryStage.setScene(scene);
+    //        primaryStage.show();
+    //    }
+    //
+    //    private void printCityPoint(float fattoreX, float fattoreY, BorderPane root, int traslazione) {
+    //        for (Citta c : cittaList) {
+    //            Circle p = new Circle((float) c.getX().doubleValue() * fattoreX, (float) c.getY().doubleValue() * fattoreY + traslazione, 4, GREEN);
+    //            root.getChildren().add(p);
+    //        }
+    //    }
+    //
+    //    private void printLine(List<Citta> arrayPath, double fattoreX, double fattoreY, BorderPane root, int traslazione) {
+    //        for (int i = 1; i < arrayPath.size(); i++) {
+    //            Line l = new Line(arrayPath.get(i - 1).getX() * fattoreX,
+    //                    arrayPath.get(i - 1).getY() * fattoreY + traslazione,
+    //                    arrayPath.get(i).getX() * fattoreX,
+    //                    arrayPath.get(i).getY() * fattoreY + traslazione);
+    //            root.getChildren().add(l);
+    //        }
+    //    }
 
 }

@@ -12,7 +12,7 @@ public class AlgoritmoSA {
         double temperature = 100, coolingRate = 0.95;
         Citta[] current = arrayPath;
         Citta[] best = current;
-        while ((System.currentTimeMillis() - Partenza.startTime) < 170000 || GetD.totalDistance(best)<Partenza.opt) {
+        while ((System.currentTimeMillis() - Partenza.startTime) < 150000 || GetD.totalDistance(best)<Partenza.opt) {
             if(GetD.totalDistance(best)<Partenza.opt){
                 System.err.println("ho trovato il viaggio ottimale");
             }
